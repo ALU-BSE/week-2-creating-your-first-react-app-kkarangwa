@@ -1,0 +1,13 @@
+h1 {
+    color: navy;
+    text-align: center;
+}
+p {
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+}
