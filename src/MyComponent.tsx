@@ -1,9 +1,12 @@
-import './MyComponent.css';
-function MyComponent() {
+type Props = {
+  title: string;
+};
+
+function MyComponent({ title }: Props) {
   return (
-    <div className="my-component">
-      <h1>My First React + TypeScript App</h1>
-      <p>A simple demonstration of React components and TypeScript.</p>
+    <div className="container">
+      <h1>{title}</h1>
+      <p>This is styled using CSS</p>
     </div>
   );
 }
